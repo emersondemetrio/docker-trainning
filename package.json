@@ -1,0 +1,19 @@
+{
+	"name": "docker-trainning",
+	"version": "1.0.0",
+	"main": "index.js",
+	"scripts": {
+		"start": "node app.js",
+		"build": "docker build -t fastify-docker-app .",
+		"run:local": "node ./src/app.js",
+		"run:docker": "docker-compose up",
+		"build:up": "docker-compose up --build"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"description": "",
+	"dependencies": {
+		"fastify": "^5.0.0"
+	}
+}
